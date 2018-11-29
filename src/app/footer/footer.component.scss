@@ -1,0 +1,31 @@
+$lt-gray: #ddd;
+$background-pale: #96858F;
+$background-light: #9099A2;
+$background-dark: #D5D5D5;
+
+@mixin zero-margin($pad-up-down, $pad-left-right) {
+    margin: 0px auto;
+    padding: $pad-up-down $pad-left-right;
+}
+
+.footer{
+    background-color: whitesmoke;
+    @include zero-margin(20px, 0px);
+    height: 300px;
+    box-shadow: 0px -3px 50px 50px whitesmoke;
+    p{
+    color:rgb(100, 82, 93);
+    text-shadow: 0px -2px 3px rgb(255, 255, 255);
+    }
+    color: rgb(117, 92, 107);
+    padding-top: 50px;
+    margin-top: 50px;
+    bottom: 0;
+}
+.mat-icon-button{
+    margin-top: 50px;
+}
+address{
+    margin-left: 30px;
+    margin-top: 50px;
+}

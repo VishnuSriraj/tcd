@@ -1,0 +1,25 @@
+<mat-toolbar >
+    <div fxShow="true" fxHide.lt-md="true">
+      <span><img  src="/assets/images/favicon.png" height=20 width=20></span>
+      <a mat-button routerLink="/home" routerLinkActive="active"><span class="fa fa-home"></span> Home</a>
+      <a mat-button routerLink="/aboutus" routerLinkActive="active"><span class="fa fa-info"></span> About</a>
+      <a mat-button routerLink="/menu" routerLinkActive="active"><span class="fa fa-list"></span> Menu</a>
+      <a mat-button routerLink="/contactus" routerLinkActive="active"><span class="fa fa-address-card"></span> Contact</a>
+      <span class="flex-spacer"></span>
+      <a mat-button (click)="openLoginForm()"><span class="fa fa-sign-in fa-lg"> Login</span></a>
+    </div>
+    <div fxShow="true" fxHide.gt-sm="true">
+    </div>
+</mat-toolbar>
+<div class="container jumbotron" fxLayout="column">
+    <div class="tcd1" fxFlex>
+        <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations
+          will tickle your culinary senses!</p>
+      </div>
+      <div class="tcd2" fxFlex>
+        <img src="/assets/images/logo.png" alt="Logo">
+      </div>
+  
+  <div fxFlex></div>
+  <div fxFlex fxHide.lt-md></div>
+</div>

@@ -1,0 +1,53 @@
+$lt-gray: #ddd;
+$background-dark: #6D7993;
+$background-darkx: rgb(157, 163, 175);
+$background-light: #96858F;
+$background-pale: #D5D5D5;
+$background-moredark: #6f6069;
+@mixin zero-margin($pad-up-down, $pad-left-right) {
+    margin: 0px auto;
+    padding: $pad-up-down $pad-left-right;
+}
+
+@media (min-width:900px){
+    .tcd2{
+        width: 40%;
+        margin: auto;
+        
+    }
+    p{
+        font-size: 1.7em!important;
+        padding:0% 10%;
+    }
+}
+.jumbotron {
+    @include zero-margin(70px,30px);
+    background-image: url('../../assets/images/pexels-photo-306059.jpeg') ;
+    color: rgb(99, 82, 92);
+    height: 100%;
+    background-position: center;
+    img{
+        width: 100%;
+    }
+    p{
+        font-size: 1.5em;
+    }
+    
+
+}.tcd1{
+    height: 20%!important;
+}
+
+.active{
+background: rgb(228, 223, 223);
+}
+.mat-toolbar{
+    min-height: 25px;
+    background: whitesmoke;
+    position: relative;
+    z-index: 1;
+    overflow-x: auto;
+    img{
+        padding-right: 25px;
+    }
+}

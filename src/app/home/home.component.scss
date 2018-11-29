@@ -1,0 +1,33 @@
+.jumbotron {
+    background-image: url('../../assets/images/pexels-photo-306059.jpeg') ;
+    color: rgb(99, 82, 92);
+    height: 800px;
+    margin: 0;
+    background-position: center;    
+    padding:0% 10%;
+    img{
+        width: 100%;
+    }
+    p{
+        font-size: 1.4em;
+    }
+    @media (min-width:900px){
+        .tcd2{
+            width: 40%;
+            margin: auto;
+            
+        }
+        p{
+            font-size: 1.7em!important;
+        }
+    }
+    .tcd1{
+        padding-top: 50px; 
+        height: 20%!important;
+    }
+
+}
+p{
+    font-size: 1.2em;
+}
+
