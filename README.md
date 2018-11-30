@@ -1,4 +1,7 @@
-# ConFusion
+# The Cheese Dairy
+
+## LiveDemo
+https://thecheesedairy.herokuapp.com/home
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.2.
 
